@@ -1,0 +1,20 @@
+{
+  "name": "ithero-api",
+  "version": "1.0.0",
+  "description": "It Hero Apisidir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Semih Yıldız",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
