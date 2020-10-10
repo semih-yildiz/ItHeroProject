@@ -19,7 +19,7 @@ const Person = function(person) {
       }
   
       console.log("Oluşturulan kişi: ", { id: res.insertId, ...newPerson });
-      result(null, { id: res.insertId, ...newPerson });
+      result(null, {message :"Ekleme Başarılı" ,data : { id: res.insertId, ...newPerson }});
     });
   };
 
