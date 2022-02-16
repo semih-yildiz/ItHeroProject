@@ -1,7 +1,7 @@
 # ItHeroProject
 
-Kişi Ekleme : http://localhost:3000/persons/addData
-Kişileri Listeleme : http://localhost:3000/persons/getAll
+Add person : http://localhost:3000/persons/addData
+Get Person : http://localhost:3000/persons/getAll
 
 Db Script
 
